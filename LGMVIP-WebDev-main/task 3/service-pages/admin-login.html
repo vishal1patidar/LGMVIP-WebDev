@@ -1,0 +1,249 @@
+<html>
+  <head>
+    <title>vit bhopal</title> University - Student Result Management System</title>
+  </head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <link
+    rel="shortcut icon"
+    href="../assets/logo/logo.png"
+    type="image/x-icon"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" href="../css/navbar.css" />
+
+  <link rel="stylesheet" href="../css/common-navbar-style.css" />
+
+  <link rel="stylesheet" href="../css/footer.css" />
+
+  <style>
+    form {
+      margin: 2% 15%;
+    }
+
+    @media (max-width: 767px) {
+      form {
+        margin: 5%;
+      }
+    }
+  </style>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="../index.html">
+        <img
+          class="logo-one"
+          src="../assets/logo/logo.png"
+          alt="Navbar logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="true"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../service-pages/login.html">Result</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#about">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link btn btn-primary"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <span>Login</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../service-pages/admin-login.html"
+                >As Admin</a
+              >
+              <a class="dropdown-item" href="../php/logout.php">Logout</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1 class="head text-center">
+      Login Here
+    </h1>
+
+    <form
+      class="jumbotron"
+      method="POST"
+      action="../php/admin-login.php"
+      onsubmit="return validation()"
+    >
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          name="emailid"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+          name="password"
+        />
+      </div>
+      <button type="submit" class="btn btn-dark" name="login">Submit</button>
+    </form>
+    <footer id="contact">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <a href="../index.html"></a>
+              </a>
+
+
+
+
+
+              <p class="content1">
+                VIT Bhopal University (also known as VIT Bhopal or VIT University Bhopal) is one of the best private universities located in Bhopal, Madhya Pradesh. It was founded in 2017 as one of the four campuses of Vellore Institute of Technology by Vellore Group of Institutions. The University adopts an inclusive teaching methodology that redefines the process of education and learning. VIT - Bhopal has been accredited with ‘A’ Grade by the National Assessment and Accreditation Council (NAAC) and is approved by the University Grants Commission (UGC).
+                 <br /><br />
+                 The University has made its place in the Limca Book of Records for placing the highest number of students in the IT sector for seven consecutive years.
+              </p>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <h6 class="content2">CONTACT US</h6>
+              <div class="social-icons">
+                <a
+                  class="icon-link"
+                  href="https://www.facebook.com/VITUnivBhopal/"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+                <a class="icon-link" href="https://www.instagram.com/vit.bhopal/?hl=en"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+                <a class="icon-link" href="https://twitter.com/vitbhopal?lang=en"
+                  ><i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+                <a
+                  class="icon-link"
+                  href="https://www.linkedin.com/company/vit-bhopal-university/?originalSubdomain=in"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+                <a
+                  class="icon-link"
+                  href="https://www.youtube.com/c/VITBHOPALOfficial"
+                  ><i class="fa fa-youtube" aria-hidden="true"></i
+                ></a>
+                
+
+
+                <br /><br />
+                <p class="contact-details">
+                  <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;
+                  <a href="mailto:enquiry@giet.edu" style="color:#fff; text-decoration: none;">info@vitbhopal.ac.in</a>
+                  <br /><br />
+                  <i class="fa fa-phone" aria-hidden="true"></i> &nbsp;
+                  Phone: +91 75 6025 4500 / 501 / 502 <br /><br />
+                  <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;
+                  
+                  Bhopal-Indore Highway
+                  Kothrikalan, Sehore
+                  Madhya Pradesh – 466114
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-3">
+              <h4>VIT University, Bhopal</h4>
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.5342293514605!2d76.84908281496882!3d23.07753158492526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397ce9ceaaaaaaab%3A0xa224b6b82b421f83!2sVellore%20Institute%20of%20Technology%20-%20VIT%20Bhopal!5e0!3m2!1sen!2sin!4v1625974164476!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="footer2">
+          GIET University&nbsp;&copy;&nbsp;2020 All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="../javascript/index.js"></script>
+
+    <script src="../javascript/login-validation.js"></script>
+  </body>
+</html>

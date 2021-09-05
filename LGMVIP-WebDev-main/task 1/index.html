@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+
+    <script src="https://kit.fontawesome.com/76ce5430d1.js" crossorigin="anonymous"></script>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+    <title>Scorpions</title>
+
+</head>
+
+<body>
+    <div id="carouselExampleCaptions " class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                        <div class="navbar-nav" style="margin: auto;">
+                            <div class="container1">
+
+                                <a class="navbar-brand" href="#">Scorpions</a>
+                            </div>
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link " href="#pro">PROJECTS</a>
+                            <a class="nav-link " href="#price">PRICING</a>
+                            <a class="nav-link " href="#zipteam">TEAM</a>
+                            <a class="nav-link " href="#blog">BLOG</a>
+                            <a class="nav-link " href="#con">CONTACT</a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="carousel-item active ">
+                <img src="https://source.unsplash.com/1600x900/?nature,water" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block img ">
+                    <h1>Whoever is happy will make others happy too</h1>
+                    <p>You will face many defeats in life, but never let yourself be defeated</p>
+                    <button type="button" class="btn btn-warning">READ MORE</button>
+                    <button type="button" class="btn btn-primary">LEARN MORE</button>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="  https://source.unsplash.com/WLUHO9A_xik/1600x900" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block img">
+                    <h1>Whoever is happy will make others happy too</h1>
+                    <p>Always Motivated</p>
+                    <button type="button" class="btn btn-warning">READ MORE</button>
+                    <button type="button" class="btn btn-primary">LEARN MORE</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/collection/190727/1600x900" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block img">
+                    <h1>Whoever is happy will make others happy too</h1>
+                    <p>Believe yourself</p>
+                    <button type="button" class="btn btn-warning">READ MORE</button>
+                    <button type="button" class="btn btn-primary">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container my-5">
+        <h1 class=" text-center">Welcome to Scorpions</h1>
+        <div class="container d-inline-flex d-flex p-2 m-2 w">
+            <p class="a">Motivation deals with complex human behaviour in order to determine the factors which drive an individual to do his best. Though it seems to be simple, but it is not true to say that motivation is merely a relationship; between efforts and rewards. According to this view higher pay will motivate the workers strongly.  </p>
+            <img src="image/5.png" alt="" width="30%" class="image">
+
+        </div>
+        <div class="container d-flex q">
+            <div class="card mx-5 c " style="width: 18rem;">
+                <img src="image/2.jpg" class="card-img-top" alt="..." style="width: 40%;margin: auto;">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Never give up</h5>
+                    <p class="card-text text-center">When you give up on life never give up on yourself because there is so much for you to keep on giving
+                        
+                        <a href="#" class="btn btn-primary my-4 b">LEARN MORE</a>
+                    </p>
+
+                </div>
+            </div>
+            <div class="card mx-5 c" style="width: 18rem;">
+                <img src="image/3.png" class="card-img-top" alt="..." style="width: 40%;margin: auto;">
+                <div class="card-body">
+                    <h5 class="card-title text-center">encourage others</h5>
+                    <p class="card-text text-center">Winning isn't getting ahead of others.It's getting ahead of yourself.
+                        <a href="#" class="btn btn-primary my-4 b">LEARN MORE</a>
+                    </p>
+
+                </div>
+            </div>
+            <div class="card mx-5 c" style="width: 18rem;">
+                <img src="image/4.jfif" class="card-img-top" alt="..." style="width: 40%;margin: auto;">
+                <div class="card-body">
+                    <h5 class="card-title text-center">TEAM WORK</h5>
+                    <p class="card-text text-center">Alone we can do so little; together we can do so much
+                        <a href="#" class="btn btn-primary my-4 b">LEARN MORE</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <hr>
+    </div>
+
+    <div class="m-3 d-flex q " id="pro">
+        <div class="card d" style="width: 29rem;">
+
+
+            <img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top image3 " alt="..."
+                style="height: 60vh;">
+
+            <div class="card-body ">
+                <h5 class="card-title">PROJECT 1</h5>
+                <p class="card-text">Another benefit of fruit is the prevention of cancer. Fruits have lots of antioxidants that defend against free radical reaction. Free radicals are the by-product that our body produces during the oxidation process.</p>
+                <a href="#" class="btn btn-light e">LAUNCH CASE STUDY</a>
+            </div>
+        </div>
+        <div class="card d" style="width: 29rem;">
+            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..."
+                style="height: 60vh;">
+            <div class="card-body ">
+                <h5 class="card-title ">PROJECT 2</h5>
+                <p class="card-text">Another benefit of fruit is the prevention of cancer. Fruits have lots of antioxidants that defend against free radical reaction. Free radicals are the by-product that our body produces during the oxidation process.</p>
+                <a href="#" class="btn btn-light e">LAUNCH CASE STUDY</a>
+            </div>
+        </div>
+        <div class="card d" style="width: 29rem;">
+            <img src="https://source.unsplash.com/1600x900/?nature,water" class="card-img-top" alt="..."
+                style="height: 60vh;">
+            <div class="card-body ">
+                <h5 class="card-title">PROJECT 3</h5>
+                <p class="card-text">Another benefit of fruit is the prevention of cancer. Fruits have lots of antioxidants that defend against free radical reaction. Free radicals are the by-product that our body produces during the oxidation process.</p>
+                <a href="#" class="btn btn-light e">LAUNCH CASE STUDY</a>
+            </div>
+        </div>
+        <div class="card d" style="width: 29rem;">
+            <img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top" alt="..."
+                style="height: 60vh;">
+            <div class="card-body ">
+                <h5 class="card-title">PROJECT 4</h5>
+                <p class="card-text">Another benefit of fruit is the prevention of cancer. Fruits have lots of antioxidants that defend against free radical reaction. Free radicals are the by-product that our body produces during the oxidation process.</p>
+                <a href="#" class="btn btn-light e">LAUNCH CASE STUDY</a>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container " id="price">
+        <h1 class="text-center m-5">Pricing Table</h1>
+        <div class="container d-flex text-center m ">
+            <div class="card mx-3 f border-end" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">STANDARD PLAN</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Free</h6>
+                    <p class="card-text">for Min ₹1500 </p>
+                    <p class="card-text">for Max ₹3000</p>
+                    <p class="card-text">30 Seats/month</p>
+                    <p class="card-text">Some Ads</p>
+                    <a href="#" class="btn btn-warning w-50 e">BUY</a>
+                </div>
+
+            </div>
+            <div class="card mx-3 f border-end" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">BUSSINESS PLAN</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">₹150/MONTH</h6>
+                    <p class="card-text">for Min ₹1700</p>
+                    <p class="card-text">for Max ₹3300</p>
+                    <p class="card-text">50 Seats/month</p>
+                    <p class="card-text">Ads Free</p>
+
+
+                    <a href="#" class="btn btn-warning w-50 e">BUY</a>
+
+
+                </div>
+            </div>
+            <div class="card mx-3 f border-end" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">PREMIUM PLAN</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Free</h6>
+                    <p class="card-text">for Min ₹2000 </p>
+                    <p class="card-text">for Max ₹3500</p>
+                    <p class="card-text">100 Seats/month</p>
+                    <p class="card-text">Ads Free</p>
+                    <a href="#" class="btn btn-warning w-50 e">BUY</a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+             </ol>
+       
+             <!-- Wrapper for slides -->
+             <div class="carousel-inner" role="listbox">            
+       
+               <div class="item active">
+                    <div align="center">
+                      <video autoplay loop>
+                        <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" width="1024" height="552" type="video/mp4">
+                        
+                     </video>
+                 </div>
+                    <div class="carousel-caption">
+                     <h3>always motivate</h3>
+                     <p>and live happy Life</p>
+                   </div>
+                 </div> 
+                 
+                 <a class="left carousel-control" href="#carouselHelp" role="button" data-slide="prev">
+            </div>
+        </div>
+        
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container " id="Scorpionteam">
+
+        <h1 class=" text-center">Scorpions Team</h1>
+        <div class="container" style="margin-left: 60px;">
+            <div class="container d-flex text-center m ">
+                <div class="card mx-5 f n">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top j" alt="...">
+                    <div class="overlay ">
+                        <p class="text">
+                            <a href=""> <i class="fab fa-facebook-f "></i></a>
+    
+                            <a href=""> <i class="fab fa-twitter "></i></i></a>
+    
+                            <a href=""> <i class="fab fa-google-plus-g"></i></i></a>
+    
+                        </p>
+    
+    
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Vivek Bindra</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Motivational Speaker</h6>
+                    </div>
+    
+                </div>
+                <div class="card mx-5 f n">
+                    <img src="image/images (2).jfif" class="card-img-top j" alt="...">
+                    <div class="overlay ">
+                        <p class="text">
+                            <a href=""> <i class="fab fa-facebook-f "></i></a>
+    
+                            <a href=""> <i class="fab fa-twitter "></i></i></a>
+    
+                            <a href=""> <i class="fab fa-google-plus-g"></i></i></a>
+    
+                        </p>
+    
+    
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Anand Kumar</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Motivational Speaker</h6>
+                    </div>
+    
+                </div>
+                <div class="card f n">
+                    <img src="image/images.jfif" class="card-img-top j" alt="...">
+                    <div class="overlay ">
+                        <p class="text">
+                            <a href=""> <i class="fab fa-facebook-f "></i></a>
+    
+                            <a href=""> <i class="fab fa-twitter "></i></i></a>
+    
+                            <a href=""> <i class="fab fa-google-plus-g"></i></i></a>
+    
+                        </p>
+    
+    
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Gaur Gopal Das</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Motivational Speaker</h6>
+                    </div>
+    
+                </div>
+    
+    
+    
+            </div>
+            <div class="container d-flex text-center m my-5">
+                <div class="card mx-5 f n">
+                    <img src="image/images (1).jfif" class="card-img-top j" alt="...">
+                    <div class="overlay ">
+                        <p class="text">
+                            <a href=""> <i class="fab fa-facebook-f "></i></a>
+    
+                            <a href=""> <i class="fab fa-twitter "></i></i></a>
+    
+                            <a href=""> <i class="fab fa-google-plus-g"></i></i></a>
+    
+                        </p>
+    
+    
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sandeep Maheshwari</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Motivational Speaker</h6>
+                    </div>
+    
+                </div>
+                <div class="card mx-5 f n">
+                    <img src="image/download (2).jfif" class="card-img-top j" alt="...">
+                    <div class="overlay ">
+                        <p class="text">
+                            <a href=""> <i class="fab fa-facebook-f "></i></a>
+    
+                            <a href=""> <i class="fab fa-twitter "></i></i></a>
+    
+                            <a href=""> <i class="fab fa-google-plus-g"></i></i></a>
+    
+                        </p>
+    
+    
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">sonu sharma</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Motivational speaker</h6>
+                    </div>
+    
+                </div>
+                <div class="card f n">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBAQEBAVEBAVDRIbDRUVDQ8QEA4SIB0iIiAdHx8kKDQsJCYxJx8fLTItMTIuQzAwIys0RD8uTDQ5MDcBCgoKDg0OFw8QFy0ZHR0tKzctNy0rNysrKysuNzcwNzcrMDc3LTc3Nys3MzQyNzExMi0wNy03ODAtODgrMi8rK//AABEIAMgAyAMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABQEDBAYHAgj/xAA3EAABBAAEAwYDBgcBAQAAAAABAAIDEQQFEiExQVEGEyJhcZEHMoFCUqGxweEUI2JygtHwM5L/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAQIDBAYFB//EACoRAAICAQQCAQMDBQAAAAAAAAABAgMRBBIhMQVBExRRYQaRsSMyM0KB/9oADAMBAAIRAxEAPwDpKIi+XHtBERAEREAREQBERTggIsebHRM+eVjd6NvaKKuxSteA5rg4HgQQQVZ1ySy0RlHtERULBERAEREAREQBERAEREAREQBERAEREAREQBURzgASTQA3J5Lj/bLtjJiXujicWYYGmgEgzebvLyW9odBPVz2x4S7ZissUETXbHt28OMGEOmiRLKaJu+Df9rTswzF76vFTTE/MXFzWfTc/oohjebr8uK9FxK7XT6GmiKjBGhKcpdl2aP7V/jakMF2hxULQ1krm0diPm9CeY8io6Fhca58vNJIHDlstmVcJLElkom10bDje12Lk0Fkro9LAPDI8iQ9TZU/kXbuUFgxNPjI8Tg2ns/2tEljLarewCfK1dgd1+gWvZodPZDa4LBZWST7O3wZ3hnuDBM0PPBriWP8AYqQXDO7Dj3hJ9bNrfuwmfyyOdhpyXkNuCQ1bm9D5rm/IeF+Gv5KnlLvJt16jc8M3VERc+bQREQBERAEREAREQBERAEREAREQGs9v83GHwjm3UkttZ6faPtt9Vxc7ku5X9VN9ss7djcS40QxpLYwdtLRzK18y8hwHku88XpPp6En2+WedbPdI9OJvjfrSuxA8xsvEQad7o9CsuNxGwF3y2Xp5MaRWOwdv8fIrNiZM/wCxbeHyqf7M9mzMQ+Swz03K6Lg8siYAGsHsFrzvSeEZ4UNrLOOOwz43WW0DWxHJUfhgbcOA3pdhxmQwyblgv0WtZ92Va1hdGNwNxezlEb89iVH2NEjk8JPLmPJWI8e6J3eQv0OBHAq5NG6M0TQ4OrZR+LiIOobg8xa2MJr7mu+Dt/ZLMn4nCRSyCnEEE/fo1q+qmVzzsPneL/hmMEYkY0uDSYsTddNTWkLdcszJk4dVB7TUjbJ0n8D7gLgdfpZV2zeOM+vR6FU04ozkRF55mCIiAIiIAiIgCIiAIiIAsLOcwbhoJZ3Cwxl0OZ5D3WatY+I73DLcRp4nQD5DULWxpYKy6EH02ik3iLZxrEYrvHzS7Ave9xAGzSTZpYclWKI8+OyrdDorDl9GisLCPLZK5TgTK8fd5romUZLCADoBI6rVeyUYDd1vWXSAUFo6ib3YPQ09aUck/hmgCgNqWfC6gFg4d4oBZUbgNydgtdGdmY15PJWsUwOBBURmfaNkQGlpdfA6aZ7nZY2Gx00o1BzW+Rs/osyi8ZMPGTUO22VmB4eN43cdlp2Lma22DxC7a5dnzXBCfDuZKBZb4CDe/KlyF+W6JXiaMue0nUwEttbNM8rD9GtdXymvZndl89nwrwGSERFw1gm2DzpdHybGMmxj5GAB/ctbiQCCGvBcDvz4NryK4/I8B2w0jiBuaXQfhbmUYa6C7lkle7YHwMa1tWfPf2XmeX00fildFc4Ipk9yi2dFREXFnoBERAEREAREQBERAEREAVjGYVk0b4pBqY9pDh5K+itFuLyiGsnAu1/Zh+AmLLLonWYXb+IdD5ha+zivoXtVkbMdhnwu2dVwu+4/l/pcFxOBdFI6KQFj2upwPFpXc+K1/wBTViX9y7PPtq2vjon+zElNJJodVOT5qWkBrSCflFEvcOtf7pQPZGAue9ltLRpO5+bopV2XSudsHaD81E6nnzKz2KO95Nity2JIysJ2nc004OJvclzQB/j+62zLcUZmUXfM0EOBIaAevsQtJxGUnwtDNNdSSVunZRgaAKoaQK/7ztYrNvoyw3eyBz7LHawBqryu1l5NlDWgawXu5Ek2FuOMwzQ2yNTRyqyFhw4vDjZpGroCNR+ibnjBZJdmZhYNOn0PmtL7XwthxcchHzto7Dfdb/hKI1HbbYGiVrXa3AMxEmHaSQDLVjjuFaHDMczkWbTATS6R4Q4hoJ5Wuh/CPCs7uebQe816Q4nbQQDQ+o/JaVnuF7nEzRXra19A9V0v4b4qJ2E7tlB7HnvBzN8D+n0WDzMmtG9vvBq1LNptiIi4c9AIiIAiIgCIiAIiIAiIgCIiALSu23YVuNecRC/u59IDgQNEtcL6fst1RbGm1NmnnvrfJScFJYZw3A4WXBYpsc7dD9QDxYo3wI8l0PCyN+bhfEVzWr/ETKpI8cyd2qSGagCB/wCT6qtvQEKmU5qXNrUC4bOoj3XZxn81UbV7XJjplhuLNgzjHNa3ZtuPCwq5HiGsDCXizxHRadn+ZPbKGjc6b68VFw4aaZ1aiTq3DSSR7LIqcrOS7tw8YydtxedYeKMPkeBXAEjitTzTPsPM0lsbr1eF7baW+dqmVdk++DC+N5puxlkIb57KbmyGLuxBE8iyNTmAMFc/U0pwiOckb2Tzd73SRufq0cLFOrzWP2uxkjIjK06S11xkcbHRTzsvjhc5zGgHuwCeZAWidtsc5zKaLDRb+Gwur/FK1mZW14gaa6UyEFxt173e/qup/C2FgglkDgXukAcLFsaBt+ZXKQSf+K6R8KMJIHYiUgtjLWhvGnOu/wAP1WLzKX0klnHRq0f5EdFREXCHohERAEREAREQBERAEREAREQBERAc/wDirg5y2GdluijNSBrtL2G+IP4WudYaUxl0sTXjD66DnkXfS+Z9F33HYVs0b4n3ocKdTi0keq5P8Q8J/DRMwrY7Z3rnRyU8v0Dg2ztQvkV1fh9apwVDXK/g07obZbkW8PiYpgHOA7wDwu23CkcNAyN3eRtAJ+bSS21ocImiZHK5pEcj3CMnbWRV17rZ+zuZtf8Aynmui9ecGlmL4MlVqb5N2hz1jY26nkUeb3c1PZPj2yi2C+V1sFzTF5c0m9Z9+K2XI86jgjLQascT1VNvBlc/WCT7T5gInUTtoN8Vg5JkX8RhcS+UEOxDSG2Pkjrw/jusOJpzLFaiP5DD/N/rdyC2nOsybhYCRWsjTCNt3f6CnrCXZj75fRoHw+wTWSuGIjY8FzmeJjX6XA7HfzBXVWMDQA0AAcAAAAuY4J2mhz5+amou0czJC0vDwKNOA4HzWr5XxNmpanW+faZEGoG7IonLc/gm21Bjxxa4gKUZI1wtpBHUEFcldpLqW1ODRmUkz0iItYsEREAREQBERAEREAREQBFGZlnuHgsPfbh9lvid+31WuY7t+Gmo4dQ85BfsAt6nxupuWYw4/Yo5JG6OeACSQABuSQAFqPaPtbg2tIEbcU5p8Nta6NrvU8fotRz3tNNitpG6Y/staTp9T1K12d+ogcBy8l7+i8Gq8TtfP2RilZnhFe2Wcz4sxPlIAbfdta0Nayz+yyRgGztbLGdElWa4O9VhY+APFdOCvZHiHR+E8ivalDZBKCxgxxS3c+y45+KbsRqrmHDdSGSZNNO4GV2iO+APics6MB6k8JK2Mbn8lgdrxjBmVSznJtGGkhwsPAMjaOH/AHNaVjcyfipTK7Zo2hb91v7rA7RZzqoPcWx3w3KpgMbC+hHI0nkLp3sVn01X+0iJSWcIkY+NrFzCT+aK46BfosklRROp73ci7b0C3WQy86Ukg8xz4KQwGcObxcRXME2ol7+QRpoKHh8Pkpg3LDdq3tIt4kbzDhTvdTuF7UYZ9W7Qeh3XLiSqscvO1HidLfy4Yf44JUmvZ2KPHQuqpGG+HjCyLXH4cS5vA/Q7qWwedSR1Ti3pROknzC8q39Nxx/Ts5/KLqx+0dLRRPZ3Nv4qMuNamup1cD5qq5i+iVFjrn2jMnlEqiIsJIREQFCa34DmubZ92vmkc5sLjHGCQ2tnPHW1vmeSBmGnc40BBJv8ARcWLl0fgtNCe6ySzjoxTZ7llc42XE/VWXkqmpUdIuq9GI8d4RzVsHcf3BVcV4cEKlvF5oxjiANZ50aHusyLxaJGEU4CweF9PIqHkwVcEhnfEdt282m6KlpNYKKTT5N0y94B0vPdu5B21+h5rLxRABJNAcyQtXiz0NZoIErfstdYNdLIV/DY3vWWI9LS7wNMpeNr5ct1quh7jYVq6LebkOZwvmFBswDjvXopyUl3Hcn8lVjd/JbvXBhlHc8lMrxOIb4XO1Nqhq3cPqs+6FBY7TRXrV1Ullwi4CvRVsOXrc+Skkra9BqoNlQuQF5m5AV+1jRmrKuMfub4fkpQJrIMwMEokbeg7Tt+8OvqFRRrHlpscOaqtO/x2nvlvnHLJ3NHXURF83NkIiIDUfiRj+7wzYgd5X7/2N3/OlzAO2W0/ErGa8X3fKOJo+p3P5hamCF3fiqfi00fzz+5ryfJcaVXu7XhpV5q9Igsuw/RWzA5ZoVVI2mA6M8wvJhYdis8heHRg9EK7SGkw9nSON+FTsEQjaABwHusLCMHfAeteylse9jq0MMZF6hqscq/VWTIjHtkcFdaVQNXpCQCqtP0VKVQpJLjFcarTCrjT1Ug9KhXpeC73UguA7fVVEgqyrUrtvdeWvHhB5qQZLMRy4hFbIRSDtiIi+VG0ERWMc/TFI4cRE8j6BWgsySIZxXtNjO+xc8gOxldp/tGw/AKMAVSLKqaPBfR64qEFFejWKtV1r1j7r2wrIDJa9VKtMK92pJGleHt817tY+LkoKSGeMvNzXfJylnAUVD4KTQNVA3ddQr/8WXWK4omUjNdGYYxxXkNVls5GxXsSXuFJc9EIAqCW1QuPT8kB7DVcjlA2cRXnSsMN2P6fJDCCKLb28lZAzCzm02FYm2o0o8wyxG4nEjmwm1cZm+phdouv/Rt+Jo6qSNy9l/GPppN/ZVl8v/mfIK3j8Sx8Di3hp28t1ac/aMf0i/ZCM8k1E7UijsJiTe3BFZMlM78iIvlRthQ/a7HjD4Od5IBLC1nm47fv9FMLlXxbzNxnhw4+RjdRH3nkfoPzK9Dxmn+fURj6XL/4Um8I0yeWmmuNbLEw2K90neaWA5xaQ73XfJcGpKXJNNltXGFYbTsK6K9GoLmWwq8AsPSvQcRwKkkyTajsZdkclmtxJ5he3PB2LQVJD5IrBuc54juh4unqspzA3cuv6Be3tAe0gAb0fqqHDVz1JgqoI9NxI4Hh1V1hG5bzAWPQH2VWI+qksZPNXG2rLSFca5SSIhTuHEFXjat89ui9F5HmrIFb5fqFC4tlvL4/C9p8Q28QUhJiiOLa6c1jYuKOYWDpkrrVoVlyQTyWucASBXy9CeSksS+v/gAKINh5DrvVvazMRNb66BDCmZ+XSHcFVWPhSQRXoeKIZE+D6VREXyw3guI/EHMTJj5Q8VoOhg2vSOf14/VEXQfp+Kds39kYbXwazM5tXy5KOlciLr0ak2X8vxX2D/ipRjgURVZat8FwFewOqIpMgMgCtnEIisiGzx/E3QP3m17rLkO23GkRCEzw3EtNXxXvarHBEQsmUDjzC9goikg9tf1VS8ckRWRJ4kN8liyYYenoqogwQmZRFsgJ3B5rHY63E9SqohrS4Zmxk1siIhkR/9k=" class="card-img-top j" alt="...">
+                    <div class="overlay ">
+                        <p class="text">
+                            <a href=""> <i class="fab fa-facebook-f "></i></a>
+    
+                            <a href=""> <i class="fab fa-twitter "></i></i></a>
+    
+                            <a href=""> <i class="fab fa-google-plus-g"></i></i></a>
+    
+                        </p>
+    
+    
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Aman Dhatterwal</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Motivational speaker</h6>
+                    </div>
+    
+                </div>
+    
+    
+    
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="o ">
+        <h2 style="text-align:center">Life in Scorpions</h2>
+        <div class="container">
+            <div class="mySlides">
+
+                <img src="https://source.unsplash.com/1600x900/?nature,water" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+
+                <img src="https://source.unsplash.com/1600x900/?nature,water" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+
+                <img src="https://source.unsplash.com/1600x900/?nature,water" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+
+                <img src="https://source.unsplash.com/1600x900/?nature,water" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+
+                <img src="https://source.unsplash.com/1600x900/?nature,water" style="width:100%">
+            </div>
+
+           
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="https://source.unsplash.com/1600x900/?nature,water" style="width:100%"
+                        onclick="currentSlide(1)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://source.unsplash.com/1600x900/?nature,water" style="width:100%"
+                        onclick="currentSlide(2)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://source.unsplash.com/1600x900/?nature,water"
+                        style="width:100%" onclick="currentSlide(3)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://source.unsplash.com/1600x900/?nature,water"
+                        style="width:100%" onclick="currentSlide(4)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://source.unsplash.com/1600x900/?nature,waterr" style="width:100%"
+                        onclick="currentSlide(5)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://source.unsplash.com/1600x900/?nature,water" style="width:100%"
+                        onclick="currentSlide(6)" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="my-5">
+        <div>
+            <div class="position-absolute">
+
+                <img src="https://source.unsplash.com/2000x300/?nature,water" class="img-fluid image1" alt="...">
+            </div>
+            <div class="t">
+                <h1 class="text-white">Newsletter Article</h1>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder=""
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <button type="button" class="btn btn-warning">Sign up</button>
+                    <button type="button" class="btn btn-primary mx-5">Sign in</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container s" id="blog">
+
+        <div class="container">
+            <h1 class="text-center m-5">Blog</h1>
+            <div class="container d-flex text-center m ">
+                <div class="card mx-3 f " style="width: 18rem;">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-3">Ritu Ghatourey</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">15 Jan,2021</h6>
+                        <p class="card-text my-3">Life is not about having everything. It’s about finding meaning in everything </p>
+
+                        <a href="#" class="btn btn-secondary w-50 k">READ MORE</a>
+                    </div>
+
+                </div>
+                <div class="card mx-3 f " style="width: 18rem;">
+                    <img src="https://source.unsplash.com/1600x800/?nature,water" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-3">Anonymous </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">18 Feb,2021</h6>
+                        <p class="card-text my-3">The love of beauty in its multiple forms is the noblest gift of the human cerebrum </p>
+
+                        <a href="#" class="btn btn-secondary w-50 k">READ MORE</a>
+                    </div>
+
+                </div>
+                <div class="card mx-3 f " style="width: 18rem;">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900" class="card-img-top" alt="...">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title my-3">Henry Stanley Haskins</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">5 April,2021</h6>
+                        <p class="card-text my-3">What lies behind us and what lies before us are tiny matters compared to what lies within us </p>
+
+                        <a href="#" class="btn btn-secondary w-50 k">READ MORE</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="d-flex contact my-3" id="con">
+
+        <div id='map' style='width: 950px; height: 700px;'></div>
+        
+            <form class="form1">
+                <div class="container mx-5 w-auto">
+                    
+
+                        <h1>Contact</h1>
+                   
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Name</label>
+                        <input type="text" class="form-control w-75 p-3" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control w-75 p-3" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">SUBJECT</label>
+                        <input type="text" class="form-control w-75 p-3" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">MESSAGE</label>
+                        <textarea class="form-control w-75" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-75 p-3">SEND</button>
+
+                </div>
+
+
+            </form>
+       
+    </div>
+
+    <footer class="container d-flex my-5">
+        <div class="container text-center">
+            <h5>OFFICE ADDRESS</h5>
+            <p class="fw-bold">ujjain <br>45 B sector <br> Madhya Pradesh </p>
+        </div>
+        <div class="container text-center">
+            <h5>FOLLOW US</h5>
+            <p class="fw-bold"> <i class="fab fa-behance wid"></i>
+                <i class="fab fa-twitter wid"></i>
+                <i class="fab fa-linkedin-in wid"></i>
+            </p>
+            <p class="fw-bold"> <i class="fab fa-facebook-f wid"></i>
+                <i class="fab fa-google-plus-g wid"></i>
+                <i class="fab fa-tumblr wid"></i>
+            </p>
+
+        </div>
+        <div class="container text-center">
+            <h5>CONTACT US</h5>
+            <p class="fw-bold">+123456789 <br>Scorpions45@gmail.com <br>www.scorpions.com
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="assets/v.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,241 @@
+.container1{
+    margin-right: 200px;
+ }
+ .img{
+    
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+ }
+ .a{
+     font-size: 30px;
+ }
+ .b:hover{
+     background-color:blue;
+     color: black;
+ }
+ .c{
+     border: none;
+ }
+ .d:hover{
+     background-color:orchid;
+ }
+ .e:hover{
+     background-color:orange;
+ }
+ .f{
+     border: none;
+     
+ }
+ .m{
+     margin-left:111px;
+ }
+ 
+ .v{
+   
+   margin: auto;
+ }
+ .h{
+     background-color: rebeccapurple;
+ }
+ .j{
+     /* border: 2px solid red; */
+     width: 200px;
+     height: 200px;
+ border-radius: 50%;
+ }
+ 
+ .overlay {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     width: 200px;
+     height: 200px;
+ border-radius: 50%;
+     opacity: 0;
+     transition: .5s ease;
+     background-color: blue;
+   }
+   
+   .n:hover .overlay {
+       cursor: pointer;
+     opacity: 0.5;
+   }
+   
+   .text {
+     color: blue;
+     font-size: 20px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     text-align: center;
+   }
+   .text i{
+       font-size: 30px;
+   }
+ 
+   .t{
+     position: absolute;
+ margin-left: 40%;
+ margin-top: 25px;
+   }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   img {
+     vertical-align: middle;
+   }
+   
+   /* Position the image container (needed to position the left and right arrows) */
+   .container {
+     position: relative;
+   }
+   
+   /* Hide the images by default */
+   .mySlides {
+     display: none;
+   }
+   
+   /* Add a pointer when hovering over the thumbnail images */
+   .cursor {
+     cursor: pointer;
+   }
+   
+   /* Next & previous buttons */
+   .prev,
+   .next {
+     cursor: pointer;
+     position: absolute;
+     top: 40%;
+     width: auto;
+     padding: 16px;
+     margin-top: -50px;
+     color: blue;
+     font-weight: bold;
+     font-size: 20px;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+     -webkit-user-select: none;
+     text-decoration: none;
+     font-size: 30px;
+   }
+   
+   /* Position the "next button" to the right */
+   .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+   }
+   
+   .numbertext {
+     color: blue;
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+   }
+   
+   /* Container for image text */
+   .caption-container {
+     text-align: center;
+     background-color: #222;
+     padding: 2px 16px;
+     color: rgb(233, 23, 23);
+   }
+   
+   .row:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+   
+   /* Six columns side by side */
+   .column {
+     float: left;
+     width: 16.66%;
+   }
+   
+   /* Add a transparency effect for thumnbail images */
+   .demo {
+     opacity: 0.6;
+   }
+   .wid{
+     width: 35px;
+     font-size: 20px;
+   }
+   .active,
+   .demo:hover {
+     opacity: 1;
+   }
+ .form1{
+   background-color: rgb(98, 241, 98));
+  width: 500px;
+  height: 500px;
+ }
+ .contact{
+ margin-left: 150px;
+ }
+ .team{
+   margin: 0 auto;
+ }
+ 
+   .o{
+     background-color:rgba(131, 130, 130, 0.075);
+  
+   }
+   .s{
+     /* border: 2px solid red; */
+     margin-top: 20%;
+     /* position: relative; */
+   }
+   .k:hover{
+     background-color: rgb(36, 151, 201);
+     color: rgb(219, 7, 7);
+     outline: none;
+   }
+   @media only screen and (max-width: 800px) {
+     .w{
+       /* display: flex; */
+       flex-direction:  column-reverse;
+     }
+     .image{
+       margin: auto;
+     }
+     .q{
+       flex-direction: column;
+       margin-left:12%;
+       width: 1%;
+      
+     }
+     .m{
+       flex-direction: column;
+       margin-left:150px;
+       width: max-content;
+ 
+     }
+     .image1{
+       height: 30vh;
+     }
+     .d{
+       /* border: 2px solid red; */
+       margin-top: 20px;
+       margin-left:150px;
+       
+     }
+   
+  }
