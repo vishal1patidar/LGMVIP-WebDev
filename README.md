@@ -6,6 +6,7 @@ Create a single page website using HTML, CSS
 
 ## 📌 Sneak Peek of Site 🙈 : 
 ![Screenshot (34)](https://user-images.githubusercontent.com/79128256/132113669-9a647bdc-5d6e-408f-8e09-13200bd78c74.png) 
+<hr>
 
 ![Screenshot (35)](https://user-images.githubusercontent.com/79128256/132113679-40658793-ca94-4f06-969f-b09e19965f24.png)  
 
@@ -20,10 +21,8 @@ Create a single page website using HTML, CSS
 [![php](https://img.shields.io/badge/php3%20-%23E34F26.svg?&style=for-the-badge&logo=php7&logoColor=white)](https://github.com/vishal46556/LGMVIP-WebDev/search?l=php)&nbsp;  
 
 ## 📌 Sneak Peek of Site 🙈 :
-![Screenshot (36)](https://user-images.githubusercontent.com/79128256/132113686-a6aa8aa9-c573-4ab6-998c-2861dddc7157.png)
-![Screenshot (37)](https://user-images.githubusercontent.com/79128256/132113688-e1e067fa-bc01-4f96-ae48-547870822482.png)
-
-![Screenshot (38)](https://user-images.githubusercontent.com/79128256/132113690-d3eae6fc-f5fa-4ae6-b506-84783140cb26.png)  
+![Screenshot (36)](https://user-images.githubusercontent.com/79128256/132113686-a6aa8aa9-c573-4ab6-998c-2861dddc7157.png)<hr>
+![Screenshot (38)](https://user-images.githubusercontent.com/79128256/132115431-94188041-56e9-45eb-849e-a1d9dadb0950.png)
 
 **© 2021 vishal patidar** 
 
